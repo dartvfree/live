@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src/js",
+        "target": "esnext",
+        "module": "esnext",
+        "lib": ["dom", "es2015"],
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "strictPropertyInitialization": true,
+        "noEmit": true,
+        "importsNotUsedAsValues": "error"
+    },
+    "include": [
+        "src/js"
+    ],
+    "exclude": [
+        "node_modules",
+        "bin-debug/**/*",
+        "bin-release/**/*"
+    ]
+}
